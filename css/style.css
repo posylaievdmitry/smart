@@ -95,173 +95,217 @@ header {
             right: -22px; }
 
 .working {
-  text-align: center;
   padding: 147px 0 130px; }
-  .working .container h3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-    color: #333333;
-    margin-bottom: 10px; }
-  .working .container span {
-    color: #fc6f4e; }
-  .working .container p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #7a7a7a;
-    margin-bottom: 109px; }
-  .working .container .flex-cont {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: wrap; }
-    .working .container .flex-cont .wp {
-      flex-basis: 262px;
-      background-color: #4eb2f7;
-      padding-top: 54px;
-      margin: 1px;
-      margin-bottom: 50px; }
-      .working .container .flex-cont .wp .cont {
-        max-width: 198px;
-        margin: auto; }
-        .working .container .flex-cont .wp .cont div {
+  .working .container {
+    text-align: center; }
+    .working .container h3 {
+      display: block;
+      margin: auto;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 50px;
+      color: #333333;
+      margin-bottom: 10px; }
+    .working .container span {
+      color: #fc6f4e; }
+    .working .container p {
+      display: block;
+      margin: auto;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #7a7a7a;
+      margin-bottom: 109px; }
+    .working .container .flex-cont {
+      display: flex;
+      justify-content: space-around;
+      flex-flow: wrap; }
+      .working .container .flex-cont .wp {
+        flex-basis: 262px;
+        background-color: #4eb2f7;
+        padding-top: 54px;
+        margin: 1px;
+        margin-bottom: 50px; }
+        .working .container .flex-cont .wp .cont {
+          max-width: 198px;
+          margin: auto; }
+          .working .container .flex-cont .wp .cont div {
+            margin: auto;
+            max-width: 54px; }
+            .working .container .flex-cont .wp .cont div img {
+              width: 100%;
+              margin-bottom: 23px; }
+          .working .container .flex-cont .wp .cont p {
+            margin-bottom: 23px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            color: white; }
+          .working .container .flex-cont .wp .cont span {
+            text-decoration: none;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            color: white; }
+        .working .container .flex-cont .wp .butt {
+          position: relative;
+          top: 30px;
+          background-color: white;
+          max-width: 228px;
           margin: auto;
-          max-width: 54px; }
-          .working .container .flex-cont .wp .cont div img {
-            width: 100%;
-            margin-bottom: 23px; }
-        .working .container .flex-cont .wp .cont p {
-          margin-bottom: 23px;
-          font-family: "Open Sans", sans-serif;
-          font-weight: 600;
-          font-size: 20px;
-          color: white; }
-        .working .container .flex-cont .wp .cont span {
-          text-decoration: none;
+          padding: 22px 0;
+          border-radius: 30px;
+          transition: 0.5s; }
+          .working .container .flex-cont .wp .butt:hover {
+            box-shadow: 0 15px 30px 0 #e8e8e8; }
+          .working .container .flex-cont .wp .butt a {
+            text-decoration: none;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #4c4c4c; }
+            .working .container .flex-cont .wp .butt a i {
+              position: relative;
+              left: -17px; }
+      .working .container .flex-cont .wp2 {
+        background-color: #c049f8; }
+      .working .container .flex-cont .wp3 {
+        background-color: #817eff; }
+      .working .container .flex-cont .wp4 {
+        background-color: #f74770; }
+
+.featured {
+  background-color: #fbfbfb;
+  padding: 131px 0 145px; }
+  .featured .container {
+    text-align: center; }
+    .featured .container h3 {
+      display: block;
+      margin: auto;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 50px;
+      color: #333333;
+      margin-bottom: 10px; }
+    .featured .container span {
+      color: #fc6f4e; }
+    .featured .container p {
+      display: block;
+      margin: auto;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #7a7a7a;
+      margin-bottom: 109px; }
+    .featured .container .flex-cont {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .featured .container .flex-cont .img {
+        background-color: #ff5c36;
+        flex-basis: 360px;
+        height: 360px;
+        margin-bottom: 25px; }
+
+.services {
+  padding: 149px 0 175px; }
+  .services .container {
+    text-align: center; }
+    .services .container h3 {
+      display: block;
+      margin: auto;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 50px;
+      color: #333333;
+      margin-bottom: 10px; }
+    .services .container span {
+      color: #fc6f4e; }
+    .services .container p {
+      display: block;
+      margin: auto;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #7a7a7a;
+      margin-bottom: 109px; }
+    .services .container .flex-cont {
+      display: flex;
+      justify-content: space-between; }
+      .services .container .flex-cont .left-f {
+        margin-right: 80px; }
+        .services .container .flex-cont .left-f div {
+          text-align: center;
+          max-width: 104px;
+          height: 92px;
+          margin-bottom: 7px;
+          background-color: #fbfbfb;
+          border: solid 1px #f7f7f7; }
+        .services .container .flex-cont .left-f .stat {
+          box-shadow: 0px -20px 82px -5px #d1cfd1; }
+      .services .container .flex-cont .center-f {
+        text-align: left;
+        max-width: 540px; }
+        .services .container .flex-cont .center-f h4 {
           font-family: "Open Sans", sans-serif;
           font-weight: 400;
-          font-size: 15px;
-          color: white; }
-      .working .container .flex-cont .wp .butt {
-        position: relative;
-        top: 30px;
-        background-color: white;
-        max-width: 228px;
-        margin: auto;
-        padding: 22px 0;
-        border-radius: 30px;
-        transition: 0.5s; }
-        .working .container .flex-cont .wp .butt:hover {
-          box-shadow: 0 15px 30px 0 #e8e8e8; }
-        .working .container .flex-cont .wp .butt a {
+          font-size: 30px;
+          margin-bottom: 19px; }
+          .services .container .flex-cont .center-f h4:after {
+            content: "";
+            display: block;
+            height: 3px;
+            width: 57px;
+            background-color: #ff5c36;
+            margin-top: 18px; }
+        .services .container .flex-cont .center-f p {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 16px; }
+        .services .container .flex-cont .center-f .text1 {
+          margin-bottom: 30px; }
+        .services .container .flex-cont .center-f .text2 {
+          margin-bottom: 40px; }
+        .services .container .flex-cont .center-f .text3 {
+          margin-bottom: 60px; }
+        .services .container .flex-cont .center-f a {
+          padding: 20px 59px 20px 94px;
+          border-radius: 30px;
+          border: solid 1px #ededed;
           text-decoration: none;
           font-family: "Open Sans", sans-serif;
           font-weight: 400;
           font-size: 16px;
-          color: #4c4c4c; }
-          .working .container .flex-cont .wp .butt a i {
+          color: #4c4c4c;
+          box-shadow: 0 28px 48px -19px #dedbde; }
+          .services .container .flex-cont .center-f a i {
             position: relative;
-            left: -17px; }
-    .working .container .flex-cont .wp2 {
-      background-color: #c049f8; }
-    .working .container .flex-cont .wp3 {
-      background-color: #817eff; }
-    .working .container .flex-cont .wp4 {
-      background-color: #f74770; }
+            left: -28px; }
+      .services .container .flex-cont .right-f img {
+        width: 100%; }
 
-.featured {
-  text-align: center;
-  background-color: #fbfbfb;
-  padding: 131px 0 145px; }
-  .featured .container h3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-    color: #333333;
-    margin-bottom: 10px; }
-  .featured .container span {
-    color: #fc6f4e; }
-  .featured .container p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #7a7a7a;
-    margin-bottom: 109px; }
-  .featured .container .flex-cont {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; }
-    .featured .container .flex-cont .img {
-      background-color: #ff5c36;
-      flex-basis: 360px;
-      height: 360px;
-      margin-bottom: 25px; }
-
-.services {
-  padding: 149px 0 175px; }
-  .services .container h3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-    color: #333333;
-    margin-bottom: 10px; }
-  .services .container span {
-    color: #fc6f4e; }
-  .services .container p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #7a7a7a;
-    margin-bottom: 109px; }
-  .services .container .flex-cont {
-    display: flex;
-    justify-content: space-between; }
-    .services .container .flex-cont .left-f {
-      margin-right: 80px; }
-      .services .container .flex-cont .left-f div {
-        text-align: center;
-        max-width: 104px;
-        height: 92px;
-        margin-bottom: 7px;
-        background-color: #fbfbfb;
-        border: solid 1px #f7f7f7; }
-    .services .container .flex-cont .center-f {
-      max-width: 540px; }
-      .services .container .flex-cont .center-f h4 {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        font-size: 30px;
-        margin-bottom: 19px; }
-        .services .container .flex-cont .center-f h4:after {
-          content: "";
-          display: block;
-          height: 3px;
-          width: 57px;
-          background-color: #ff5c36;
-          margin-top: 18px; }
-      .services .container .flex-cont .center-f p {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        font-size: 16px; }
-      .services .container .flex-cont .center-f .text1 {
-        margin-bottom: 30px; }
-      .services .container .flex-cont .center-f .text2 {
-        margin-bottom: 40px; }
-      .services .container .flex-cont .center-f .text3 {
-        margin-bottom: 60px; }
-      .services .container .flex-cont .center-f a {
-        padding: 20px 59px 20px 94px;
-        border-radius: 30px;
-        border: solid 1px #ededed;
-        text-decoration: none;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        color: #4c4c4c; }
-        .services .container .flex-cont .center-f a i {
-          position: relative;
-          left: -28px; }
-    .services .container .flex-cont .right-f img {
-      width: 100%; }
+.team {
+  padding: 142px 0 179px;
+  background-color: #fbfbfb; }
+  .team .container {
+    text-align: center; }
+    .team .container h3 {
+      display: block;
+      margin: auto;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 50px;
+      color: #333333;
+      margin-bottom: 10px; }
+    .team .container span {
+      color: #fc6f4e; }
+    .team .container p {
+      display: block;
+      margin: auto;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #7a7a7a;
+      margin-bottom: 109px; }
 
 /*# sourceMappingURL=style.css.map */

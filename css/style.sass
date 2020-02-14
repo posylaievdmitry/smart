@@ -2,6 +2,8 @@ $orange: #fc6f4e
 
 @mixin head3
   h3
+    display: block
+    margin: auto
     font-family: 'Open Sans', sans-serif
     font-weight: 600
     font-size: 50px
@@ -11,6 +13,8 @@ $orange: #fc6f4e
     color: $orange
 @mixin head-text
   p
+    display: block
+    margin: auto
     font-family: 'Open Sans', sans-serif
     font-weight: 400
     font-size: 16px
@@ -115,14 +119,16 @@ header
           padding: 21px 66px
           border: none
           border-radius: 30px
+
           i
             position: relative
             right: -22px
 
+
 .working
-  text-align: center
   padding: 147px 0 130px
   .container
+    text-align: center
     @include head3
     @include head-text
 
@@ -185,11 +191,12 @@ header
       .wp4
         background-color: #f74770
 
+
 .featured
-  text-align: center
   background-color: #fbfbfb
   padding: 131px 0 145px
   .container
+    text-align: center
     @include head3
     @include head-text
     .flex-cont
@@ -205,6 +212,7 @@ header
 .services
   padding: 149px 0 175px
   .container
+    text-align: center
     @include head3
     @include head-text
     .flex-cont
@@ -219,7 +227,11 @@ header
           margin-bottom: 7px
           background-color: #fbfbfb
           border: solid 1px #f7f7f7
+        .stat
+          box-shadow: 0px -20px 82px -5px rgba(209,207,209,1)
+
       .center-f
+        text-align: left
         max-width: 540px
         h4
           font-family: 'Open Sans', sans-serif
@@ -252,9 +264,17 @@ header
           font-weight: 400
           font-size: 16px
           color: #4c4c4c
+          box-shadow: 0 28px 48px -19px rgba(222,219,222,1)
           i
             position: relative
             left: -28px
       .right-f
         img
           width: 100%
+.team
+  padding: 142px 0 179px
+  background-color: #fbfbfb
+  .container
+    text-align: center
+    @include head3
+    @include head-text
