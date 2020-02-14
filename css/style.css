@@ -90,6 +90,9 @@ header {
           padding: 21px 66px;
           border: none;
           border-radius: 30px; }
+          header .container .message-form form button i {
+            position: relative;
+            right: -22px; }
 
 .working {
   text-align: center;
@@ -146,7 +149,8 @@ header {
         max-width: 228px;
         margin: auto;
         padding: 22px 0;
-        border-radius: 30px; }
+        border-radius: 30px;
+        transition: 0.5s; }
         .working .container .flex-cont .wp .butt:hover {
           box-shadow: 0 15px 30px 0 #e8e8e8; }
         .working .container .flex-cont .wp .butt a {
@@ -155,6 +159,9 @@ header {
           font-weight: 400;
           font-size: 16px;
           color: #4c4c4c; }
+          .working .container .flex-cont .wp .butt a i {
+            position: relative;
+            left: -17px; }
     .working .container .flex-cont .wp2 {
       background-color: #c049f8; }
     .working .container .flex-cont .wp3 {
@@ -188,6 +195,73 @@ header {
       background-color: #ff5c36;
       flex-basis: 360px;
       height: 360px;
-      margin-bottom: 26px; }
+      margin-bottom: 25px; }
+
+.services {
+  padding: 149px 0 175px; }
+  .services .container h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #333333;
+    margin-bottom: 10px; }
+  .services .container span {
+    color: #fc6f4e; }
+  .services .container p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7a7a7a;
+    margin-bottom: 109px; }
+  .services .container .flex-cont {
+    display: flex;
+    justify-content: space-between; }
+    .services .container .flex-cont .left-f {
+      margin-right: 80px; }
+      .services .container .flex-cont .left-f div {
+        text-align: center;
+        max-width: 104px;
+        height: 92px;
+        margin-bottom: 7px;
+        background-color: #fbfbfb;
+        border: solid 1px #f7f7f7; }
+    .services .container .flex-cont .center-f {
+      max-width: 540px; }
+      .services .container .flex-cont .center-f h4 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 19px; }
+        .services .container .flex-cont .center-f h4:after {
+          content: "";
+          display: block;
+          height: 3px;
+          width: 57px;
+          background-color: #ff5c36;
+          margin-top: 18px; }
+      .services .container .flex-cont .center-f p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 16px; }
+      .services .container .flex-cont .center-f .text1 {
+        margin-bottom: 30px; }
+      .services .container .flex-cont .center-f .text2 {
+        margin-bottom: 40px; }
+      .services .container .flex-cont .center-f .text3 {
+        margin-bottom: 60px; }
+      .services .container .flex-cont .center-f a {
+        padding: 20px 59px 20px 94px;
+        border-radius: 30px;
+        border: solid 1px #ededed;
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4c4c4c; }
+        .services .container .flex-cont .center-f a i {
+          position: relative;
+          left: -28px; }
+    .services .container .flex-cont .right-f img {
+      width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
