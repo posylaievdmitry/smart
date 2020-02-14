@@ -1,16 +1,27 @@
 $orange: #fc6f4e
 
-
+@mixin head3
+  h3
+    font-family: 'Open Sans', sans-serif
+    font-weight: 600
+    font-size: 50px
+    color: #333333
+    margin-bottom: 10px
+  span
+    color: $orange
+@mixin head-text
+  p
+    font-family: 'Open Sans', sans-serif
+    font-weight: 400
+    font-size: 16px
+    color: #7a7a7a
+    margin-bottom: 109px
 
 
 
 *
   margin: 0
   padding: 0
-
-
-
-body
 
 .container
   max-width: 1140px
@@ -109,21 +120,8 @@ header
   text-align: center
   padding: 147px 0 130px
   .container
-    h3
-      font-family: 'Open Sans', sans-serif
-      font-weight: 600
-      font-size: 50px
-      color: #333333
-      margin-bottom: 10px
-
-      span
-        color: $orange
-    p
-      font-family: 'Open Sans', sans-serif
-      font-weight: 400
-      font-size: 16px
-      color: #7a7a7a
-      margin-bottom: 109px
+    @include head3
+    @include head-text
 
     .flex-cont
       display: flex
@@ -172,12 +170,29 @@ header
             font-weight: 400
             font-size: 16px
             color: #4c4c4c
-
-
       .wp2
         background-color: #c049f8
       .wp3
         background-color: #817eff
       .wp4
         background-color: #f74770
+
+.featured
+  text-align: center
+  background-color: #fbfbfb
+  padding: 131px 0 145px
+  .container
+    @include head3
+    @include head-text
+    .flex-cont
+      display: flex
+      justify-content: space-around
+      flex-wrap: wrap
+      .img
+        background-color: #ff5c36
+        flex-basis: 360px
+        height: 360px
+        //margin: 10px
+        margin-bottom: 26px
+
 

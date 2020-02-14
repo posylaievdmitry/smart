@@ -100,8 +100,8 @@ header {
     font-size: 50px;
     color: #333333;
     margin-bottom: 10px; }
-    .working .container h3 span {
-      color: #fc6f4e; }
+  .working .container span {
+    color: #fc6f4e; }
   .working .container p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -161,5 +161,33 @@ header {
       background-color: #817eff; }
     .working .container .flex-cont .wp4 {
       background-color: #f74770; }
+
+.featured {
+  text-align: center;
+  background-color: #fbfbfb;
+  padding: 131px 0 145px; }
+  .featured .container h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #333333;
+    margin-bottom: 10px; }
+  .featured .container span {
+    color: #fc6f4e; }
+  .featured .container p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7a7a7a;
+    margin-bottom: 109px; }
+  .featured .container .flex-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .featured .container .flex-cont .img {
+      background-color: #ff5c36;
+      flex-basis: 360px;
+      height: 360px;
+      margin-bottom: 26px; }
 
 /*# sourceMappingURL=style.css.map */

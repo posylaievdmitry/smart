@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a804ab91-cf02-4311-8141-12eaa3320194" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/ff80f553a457a3dc59d802c3d45cc3d07bd4d5b3/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/ff80f553a457a3dc59d802c3d45cc3d07bd4d5b3/style.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
@@ -66,8 +65,16 @@
       <workItem from="1580648897008" duration="2574000" />
       <workItem from="1580908676454" duration="36000" />
       <workItem from="1581596342420" duration="604000" />
-      <workItem from="1581676310875" duration="16530000" />
+      <workItem from="1581676310875" duration="18841000" />
     </task>
+    <task id="LOCAL-00001" summary="create 'working process'">
+      <created>1581693416169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581693416169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create 'working process'" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 'working process'" />
   </component>
 </project>
