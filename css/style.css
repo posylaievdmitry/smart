@@ -43,13 +43,13 @@ header {
       top: 3px;
       left: 0;
       box-shadow: 0 0 40px 20px #dfdfdf; }
-      header .container .message-form h3 {
+      header .container .message-form h4 {
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
         color: #37302f;
         font-size: 20px;
         margin-bottom: 49px; }
-        header .container .message-form h3 span {
+        header .container .message-form h4 span {
           font-family: "Open Sans", sans-serif;
           font-weight: 600;
           color: #fc6f4e; }
@@ -90,5 +90,76 @@ header {
           padding: 21px 66px;
           border: none;
           border-radius: 30px; }
+
+.working {
+  text-align: center;
+  padding: 147px 0 130px; }
+  .working .container h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #333333;
+    margin-bottom: 10px; }
+    .working .container h3 span {
+      color: #fc6f4e; }
+  .working .container p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7a7a7a;
+    margin-bottom: 109px; }
+  .working .container .flex-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap; }
+    .working .container .flex-cont .wp {
+      flex-basis: 262px;
+      background-color: #4eb2f7;
+      padding-top: 54px;
+      margin: 1px;
+      margin-bottom: 50px; }
+      .working .container .flex-cont .wp .cont {
+        max-width: 198px;
+        margin: auto; }
+        .working .container .flex-cont .wp .cont div {
+          margin: auto;
+          max-width: 54px; }
+          .working .container .flex-cont .wp .cont div img {
+            width: 100%;
+            margin-bottom: 23px; }
+        .working .container .flex-cont .wp .cont p {
+          margin-bottom: 23px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          color: white; }
+        .working .container .flex-cont .wp .cont span {
+          text-decoration: none;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 15px;
+          color: white; }
+      .working .container .flex-cont .wp .butt {
+        position: relative;
+        top: 30px;
+        background-color: white;
+        max-width: 228px;
+        margin: auto;
+        padding: 22px 0;
+        border-radius: 30px; }
+        .working .container .flex-cont .wp .butt:hover {
+          box-shadow: 0 15px 30px 0 #e8e8e8; }
+        .working .container .flex-cont .wp .butt a {
+          text-decoration: none;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 16px;
+          color: #4c4c4c; }
+    .working .container .flex-cont .wp2 {
+      background-color: #c049f8; }
+    .working .container .flex-cont .wp3 {
+      background-color: #817eff; }
+    .working .container .flex-cont .wp4 {
+      background-color: #f74770; }
 
 /*# sourceMappingURL=style.css.map */
