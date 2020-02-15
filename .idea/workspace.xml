@@ -68,7 +68,7 @@
       <workItem from="1581676310875" duration="25199000" />
       <workItem from="1581703330682" duration="971000" />
       <workItem from="1581706698323" duration="47000" />
-      <workItem from="1581765059661" duration="2352000" />
+      <workItem from="1581765059661" duration="9597000" />
     </task>
     <task id="LOCAL-00001" summary="create 'working process'">
       <created>1581693416169</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581704291052</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create 'Team Chinen &amp; Skills'">
+      <created>1581767543472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581767543472</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +135,7 @@
     <MESSAGE value="create 'working process'" />
     <MESSAGE value="create 'Featured Works'" />
     <MESSAGE value="create 'Services We Provide'" />
-    <option name="LAST_COMMIT_MESSAGE" value="create 'Services We Provide'" />
+    <MESSAGE value="create 'Team Chinen &amp; Skills'" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 'Team Chinen &amp; Skills'" />
   </component>
 </project>
