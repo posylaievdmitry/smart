@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a804ab91-cf02-4311-8141-12eaa3320194" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/ff80f553a457a3dc59d802c3d45cc3d07bd4d5b3/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/ff80f553a457a3dc59d802c3d45cc3d07bd4d5b3/style.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
       <workItem from="1581676310875" duration="25199000" />
       <workItem from="1581703330682" duration="971000" />
       <workItem from="1581706698323" duration="47000" />
-      <workItem from="1581765059661" duration="9597000" />
+      <workItem from="1581765059661" duration="9848000" />
     </task>
     <task id="LOCAL-00001" summary="create 'working process'">
       <created>1581693416169</created>
@@ -112,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581767543472</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create 'Clients Said'">
+      <created>1581774708144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581774708144</updated>
+    </task>
+    <task id="LOCAL-00008" summary="create 'Clients Said'">
+      <created>1581774836665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581774836665</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +148,7 @@
     <MESSAGE value="create 'Featured Works'" />
     <MESSAGE value="create 'Services We Provide'" />
     <MESSAGE value="create 'Team Chinen &amp; Skills'" />
-    <option name="LAST_COMMIT_MESSAGE" value="create 'Team Chinen &amp; Skills'" />
+    <MESSAGE value="create 'Clients Said'" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 'Clients Said'" />
   </component>
 </project>
