@@ -307,5 +307,99 @@ header {
       font-size: 16px;
       color: #7a7a7a;
       margin-bottom: 109px; }
+    .team .container .flex-cont {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .team .container .flex-cont .holder {
+        position: relative;
+        width: 359px;
+        height: 446px;
+        background: #ff5c36;
+        margin: 100px auto;
+        transition: 0.5s; }
+        .team .container .flex-cont .holder:hover .block {
+          display: block; }
+        .team .container .flex-cont .holder:hover .position {
+          display: none; }
+        .team .container .flex-cont .holder .position {
+          background: white;
+          width: 262px;
+          height: 96px;
+          margin: auto;
+          position: relative;
+          top: 380px;
+          padding-top: 21px;
+          box-shadow: 0 30px 65px -22px #c2c0c2; }
+          .team .container .flex-cont .holder .position p {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 30px;
+            color: #4c4c4c;
+            margin-bottom: 20px; }
+          .team .container .flex-cont .holder .position span {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            color: #666666; }
+        .team .container .flex-cont .holder .block {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          top: 0;
+          background: #fff3f0;
+          padding: 160px 104px 5px 104px;
+          text-align: center;
+          display: none; }
+          .team .container .flex-cont .holder .block .skills_text {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 11px;
+            color: black;
+            margin-bottom: 4px; }
+          .team .container .flex-cont .holder .block .bar {
+            display: block;
+            width: 151px;
+            height: 4px;
+            background-color: #707070;
+            margin-bottom: 12px; }
+          .team .container .flex-cont .holder .block .design:before {
+            content: "";
+            display: block;
+            height: 100%;
+            width: 85%;
+            background-color: #ff6e47; }
+          .team .container .flex-cont .holder .block .english:before {
+            content: "";
+            display: block;
+            height: 100%;
+            width: 70%;
+            background-color: #ff6e47; }
+          .team .container .flex-cont .holder .block .communication:before {
+            content: "";
+            display: block;
+            height: 100%;
+            width: 80%;
+            background-color: #ff6e47; }
+          .team .container .flex-cont .holder .block .communication {
+            margin-bottom: 81px; }
+          .team .container .flex-cont .holder .block .name {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 26px;
+            color: #413f3f;
+            margin-bottom: 7px; }
+          .team .container .flex-cont .holder .block .post {
+            display: block;
+            margin: auto;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 17px;
+            color: #ff724c;
+            margin-bottom: 15px; }
+          .team .container .flex-cont .holder .block .fab {
+            color: #ff724c;
+            margin: 0 7px; }
 
 /*# sourceMappingURL=style.css.map */

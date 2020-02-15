@@ -278,3 +278,97 @@ header
     text-align: center
     @include head3
     @include head-text
+    .flex-cont
+      display: flex
+      justify-content: space-around
+      flex-wrap: wrap
+      .holder
+        position: relative
+        width: 359px
+        height: 446px
+        background: #ff5c36
+        margin: 100px auto
+        transition: 0.5s
+        &:hover .block
+          display: block
+        &:hover .position
+          display: none
+        .position
+          background: white
+          width: 262px
+          height: 96px
+          margin: auto
+          position: relative
+          top: 380px
+          padding-top: 21px
+          box-shadow: 0 30px 65px -22px rgba(194,192,194,1)
+          p
+            font-family: 'Open Sans', sans-serif
+            font-weight: 600
+            font-size: 30px
+            color: #4c4c4c
+            margin-bottom: 20px
+          span
+            font-family: 'Open Sans', sans-serif
+            font-weight: 300
+            font-size: 16px
+            color: #666666
+        .block
+          position: absolute
+          left: 0
+          bottom: 0
+          right: 0
+          top: 0
+          background: #fff3f0
+          padding: 160px 104px 5px 104px
+          text-align: center
+          display: none
+          .skills_text
+            font-family: 'Open Sans', sans-serif
+            font-weight: 400
+            font-size: 11px
+            color: black
+            margin-bottom: 4px
+          .bar
+            display: block
+            width: 151px
+            height: 4px
+            background-color: #707070
+            margin-bottom: 12px
+          .design:before
+            content: ""
+            display: block
+            height: 100%
+            width: 85%
+            background-color: #ff6e47
+          .english:before
+            content: ""
+            display: block
+            height: 100%
+            width: 70%
+            background-color: #ff6e47
+          .communication:before
+            content: ""
+            display: block
+            height: 100%
+            width: 80%
+            background-color: #ff6e47
+          .communication
+            margin-bottom: 81px
+          .name
+            font-family: 'Open Sans', sans-serif
+            font-weight: 600
+            font-size: 26px
+            color: #413f3f
+            margin-bottom: 7px
+          .post
+            display: block
+            margin: auto
+            font-family: 'Open Sans', sans-serif
+            font-weight: 300
+            font-size: 17px
+            color: #ff724c
+            margin-bottom: 15px
+          .fab
+            color: #ff724c
+            margin: 0 7px

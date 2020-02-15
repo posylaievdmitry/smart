@@ -37,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Luis-Oenrique" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qweqwe" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
   </component>
   <component name="RunDashboard">
@@ -66,7 +66,9 @@
       <workItem from="1580908676454" duration="36000" />
       <workItem from="1581596342420" duration="604000" />
       <workItem from="1581676310875" duration="25199000" />
-      <workItem from="1581703330682" duration="768000" />
+      <workItem from="1581703330682" duration="971000" />
+      <workItem from="1581706698323" duration="47000" />
+      <workItem from="1581765059661" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="create 'working process'">
       <created>1581693416169</created>
@@ -89,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581703115263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create 'Services We Provide'">
+      <created>1581704230810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581704230810</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create 'Services We Provide'">
+      <created>1581704291052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581704291052</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
