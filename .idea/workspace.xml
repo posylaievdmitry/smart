@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a804ab91-cf02-4311-8141-12eaa3320194" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +64,7 @@
       <workItem from="1581676310875" duration="25199000" />
       <workItem from="1581703330682" duration="971000" />
       <workItem from="1581706698323" duration="47000" />
-      <workItem from="1581765059661" duration="13547000" />
+      <workItem from="1581765059661" duration="13796000" />
     </task>
     <task id="LOCAL-00001" summary="create 'working process'">
       <created>1581693416169</created>
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581778489073</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="create 'footer'">
+      <created>1581778860107</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581778860107</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
