@@ -491,7 +491,7 @@ header {
   font-weight: 900 !important;
   position: absolute;
   top: 160px;
-  left: -20px;
+  left: 0;
   box-shadow: 0 2px 134px -25px #a3a3a3; }
   .owl-carousel .owl-nav button.owl-prev:hover {
     background: #ff6e47 !important;
@@ -509,7 +509,7 @@ header {
   font-weight: 900 !important;
   position: absolute;
   top: 160px;
-  right: -20px;
+  right: 0;
   box-shadow: 0 2px 134px -25px #a3a3a3; }
   .owl-carousel .owl-nav button.owl-next:hover {
     background: #ff6e47 !important;
