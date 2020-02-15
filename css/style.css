@@ -432,8 +432,7 @@ header {
     padding: 94px 50px 37px;
     max-width: 540px;
     box-shadow: 0 0 75px -48px #757575;
-    margin: 50px 19px 40px;
-    margin: auto; }
+    margin: 50px 19px auto; }
     .clients .container .owl-carousel .owl-block:hover {
       border: solid 1px #cececf; }
     .clients .container .owl-carousel .owl-block .photo {
@@ -468,13 +467,15 @@ header {
         font-style: italic;
         font-weight: 400; }
 
-.owl-dot span {
-  display: block;
-  height: 6px;
-  width: 18px;
-  background-color: #e0e0e0;
-  margin: 0 4px;
-  border-radius: 2px; }
+.owl-dot {
+  margin-top: 50px; }
+  .owl-dot span {
+    display: block;
+    height: 6px;
+    width: 18px;
+    background-color: #e0e0e0;
+    margin: 0 4px;
+    border-radius: 2px; }
 
 .owl-dot.active span {
   display: block;
