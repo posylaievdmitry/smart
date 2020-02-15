@@ -232,7 +232,8 @@ header {
       margin-bottom: 109px; }
     .services .container .flex-cont {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      flex-wrap: wrap; }
       .services .container .flex-cont .left-f {
         margin-right: 80px; }
         .services .container .flex-cont .left-f div {
@@ -246,7 +247,8 @@ header {
           box-shadow: 0px -20px 82px -5px #d1cfd1; }
       .services .container .flex-cont .center-f {
         text-align: left;
-        max-width: 540px; }
+        max-width: 540px;
+        margin-bottom: 30px; }
         .services .container .flex-cont .center-f h4 {
           font-family: "Open Sans", sans-serif;
           font-weight: 400;
@@ -517,5 +519,59 @@ header {
     color: white; }
   .owl-carousel .owl-nav button.owl-next:before {
     content: ""; }
+
+.partners {
+  padding: 76px 0 96px;
+  background-color: #fbfbfb; }
+  .partners .container .flex-cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .partners .container .flex-cont a {
+      margin: 5px; }
+
+footer {
+  background-color: #f7f7f7;
+  padding: 65px 0 54px; }
+  footer .container {
+    text-align: center; }
+    footer .container .flex-cont {
+      margin-top: 70px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      footer .container .flex-cont .foot-left {
+        margin: 0 30px; }
+        footer .container .flex-cont .foot-left a {
+          display: inline-block;
+          height: 52px;
+          width: 52px;
+          border-radius: 30px;
+          text-align: center;
+          text-decoration: none;
+          background-color: #d3d3d3;
+          line-height: 52px;
+          margin: 8px;
+          color: white; }
+          footer .container .flex-cont .foot-left a:hover {
+            background-color: #ff6e47;
+            box-shadow: 0 0 30px -10px #474447; }
+      footer .container .flex-cont .foot-right p {
+        line-height: 62px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: #656565; }
+    footer .container .contact {
+      background-color: white;
+      padding: 21px 83px;
+      border: solid 1px #e6e6e6;
+      border-radius: 30px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: black;
+      text-decoration: none;
+      box-shadow: 0 20px 47px 0 rgba(194, 192, 194, 0.61); }
 
 /*# sourceMappingURL=style.css.map */
