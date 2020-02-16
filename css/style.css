@@ -14,9 +14,74 @@ header {
     text-align: center; }
     header .container .flex-cont {
       display: flex;
-      justify-content: space-between; }
-      header .container .flex-cont a {
-        margin-bottom: 147px; }
+      justify-content: space-between;
+      margin-bottom: 147px; }
+      header .container .flex-cont .logo {
+        max-width: 100%; }
+      header .container .flex-cont .top-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        header .container .flex-cont .top-menu .menu-nav {
+          transition: 0.5s;
+          transform: scaleX(0);
+          opacity: 0; }
+          header .container .flex-cont .top-menu .menu-nav a {
+            text-decoration: none;
+            display: inline-block;
+            color: #706b73;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            margin-right: 50px; }
+        header .container .flex-cont .top-menu .menu-nav-active {
+          transition: 0.5s;
+          transform: scaleX(1);
+          opacity: 1; }
+        header .container .flex-cont .top-menu .icon {
+          display: block;
+          width: 34px;
+          height: 34px;
+          position: relative; }
+          header .container .flex-cont .top-menu .icon span {
+            width: 100%;
+            height: 4px;
+            background-color: #706b73;
+            border-radius: 1px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            margin-top: -2px; }
+            header .container .flex-cont .top-menu .icon span:before {
+              content: "";
+              width: 100%;
+              height: 4px;
+              background-color: #706b73;
+              border-radius: 1px;
+              position: absolute;
+              top: 50%;
+              left: 0;
+              margin-top: -2px;
+              transform: translateY(-8px);
+              transition: 0.2s; }
+            header .container .flex-cont .top-menu .icon span:after {
+              content: "";
+              width: 100%;
+              height: 4px;
+              background-color: #706b73;
+              border-radius: 1px;
+              position: absolute;
+              top: 50%;
+              left: 0;
+              margin-top: -2px;
+              transform: translateY(8px);
+              transition: 0.2s; }
+        header .container .flex-cont .top-menu .icon-active span {
+          height: 0; }
+          header .container .flex-cont .top-menu .icon-active span:before {
+            transform: rotate(35deg); }
+          header .container .flex-cont .top-menu .icon-active span:after {
+            transform: rotate(-35deg); }
     header .container .heading {
       display: block;
       margin: auto;
@@ -119,14 +184,13 @@ header {
       margin-bottom: 109px; }
     .working .container .flex-cont {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       flex-flow: wrap; }
       .working .container .flex-cont .wp {
         flex-basis: 262px;
         background-color: #4eb2f7;
         padding-top: 54px;
-        margin: 1px;
-        margin-bottom: 50px; }
+        margin: 0 10px 50px; }
         .working .container .flex-cont .wp .cont {
           max-width: 198px;
           margin: auto; }
@@ -200,13 +264,13 @@ header {
       margin-bottom: 109px; }
     .featured .container .flex-cont {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       flex-wrap: wrap; }
       .featured .container .flex-cont .img {
         background-color: #ff5c36;
-        flex-basis: 360px;
+        width: 360px;
         height: 360px;
-        margin-bottom: 25px; }
+        margin: 10px; }
 
 .services {
   padding: 149px 0 175px; }
@@ -232,23 +296,26 @@ header {
       margin-bottom: 109px; }
     .services .container .flex-cont {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap; }
       .services .container .flex-cont .left-f {
-        margin-right: 80px; }
+        display: flex;
+        flex-direction: column; }
         .services .container .flex-cont .left-f div {
+          padding-top: 10px;
+          box-sizing: border-box;
           text-align: center;
           max-width: 104px;
           height: 92px;
-          margin-bottom: 7px;
+          margin: 0 0 7px 0;
           background-color: #fbfbfb;
           border: solid 1px #f7f7f7; }
         .services .container .flex-cont .left-f .stat {
           box-shadow: 0px -20px 82px -5px #d1cfd1; }
       .services .container .flex-cont .center-f {
         text-align: left;
-        max-width: 540px;
-        margin-bottom: 30px; }
+        max-width: 530px;
+        margin: 0 30px 50px 120px; }
         .services .container .flex-cont .center-f h4 {
           font-family: "Open Sans", sans-serif;
           font-weight: 400;
@@ -319,7 +386,7 @@ header {
         width: 359px;
         height: 446px;
         background: #ff5c36;
-        margin: 100px auto;
+        margin: 50px auto;
         transition: 0.5s; }
         .team .container .flex-cont .holder:hover .block {
           display: block; }
@@ -542,7 +609,7 @@ footer {
       justify-content: center;
       flex-wrap: wrap; }
       footer .container .flex-cont .foot-left {
-        margin: 0 30px; }
+        margin: 0 15px; }
         footer .container .flex-cont .foot-left a {
           display: inline-block;
           height: 52px;
@@ -557,12 +624,14 @@ footer {
           footer .container .flex-cont .foot-left a:hover {
             background-color: #ff6e47;
             box-shadow: 0 0 30px -10px #474447; }
-      footer .container .flex-cont .foot-right p {
-        line-height: 62px;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        font-size: 17px;
-        color: #656565; }
+      footer .container .flex-cont .foot-right {
+        margin: 0 15px; }
+        footer .container .flex-cont .foot-right p {
+          line-height: 62px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 17px;
+          color: #656565; }
     footer .container .contact {
       background-color: white;
       padding: 21px 83px;
@@ -574,5 +643,83 @@ footer {
       color: black;
       text-decoration: none;
       box-shadow: 0 20px 47px 0 rgba(194, 192, 194, 0.61); }
+
+@media only screen and (max-width: 1100px) {
+  header {
+    padding-top: 32px; }
+    header .flex-cont {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 147px; }
+      header .flex-cont .logo {
+        order: 0;
+        margin-left: 30px; }
+      header .flex-cont .top-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        header .flex-cont .top-menu .menu-nav {
+          display: flex;
+          flex-direction: column;
+          order: 2;
+          max-width: 100%; }
+          header .flex-cont .top-menu .menu-nav a {
+            display: block;
+            margin: auto; }
+        header .flex-cont .top-menu .menu-nav-active {
+          height: 320px; }
+        header .flex-cont .top-menu .icon {
+          margin-top: 13px;
+          order: 1; }
+
+  .working {
+    padding: 47px 0 30px; }
+    .working .container p {
+      margin-bottom: 50px; }
+
+  .featured {
+    padding: 31px 0 45px; }
+    .featured .container p {
+      margin-bottom: 50px; }
+
+  .services {
+    padding: 49px 0 75px; }
+    .services .container p {
+      margin-bottom: 50px; }
+    .services .container .flex-cont {
+      align-items: center; }
+      .services .container .flex-cont .left-f {
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%; }
+        .services .container .flex-cont .left-f div {
+          margin: auto; }
+      .services .container .flex-cont .center-f {
+        text-align: center;
+        max-width: 530px;
+        margin: 10px 10px 70px; }
+        .services .container .flex-cont .center-f h4:after {
+          margin: auto;
+          margin-top: 18px; }
+
+  .team {
+    padding: 42px 0 79px; }
+    .team .container p {
+      margin-bottom: 50px; }
+
+  .clients {
+    padding: 37px 0 48px; }
+    .clients .container p {
+      margin-bottom: 50px; } }
+@media only screen and (max-width: 999px) {
+  .clients .container .owl-carousel .owl-block {
+    display: block;
+    margin: auto !important;
+    margin: 50px 19px; } }
+@media only screen and (max-width: 767px) {
+  .message-form {
+    display: block;
+    margin: auto; } }
 
 /*# sourceMappingURL=style.css.map */

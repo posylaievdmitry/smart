@@ -1,3 +1,10 @@
+$('.icon').on('click', function(e) {
+    e.preventDefault();
+    $(this).toggleClass('icon-active');
+    $('.menu-nav').toggleClass('menu-nav-active');
+});
+
+
 $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
