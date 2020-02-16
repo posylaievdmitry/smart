@@ -674,16 +674,22 @@ footer {
 
   .working {
     padding: 47px 0 30px; }
+    .working .container h3 {
+      font-size: 40px; }
     .working .container p {
       margin-bottom: 50px; }
 
   .featured {
     padding: 31px 0 45px; }
+    .featured .container h3 {
+      font-size: 40px; }
     .featured .container p {
       margin-bottom: 50px; }
 
   .services {
     padding: 49px 0 75px; }
+    .services .container h3 {
+      font-size: 40px; }
     .services .container p {
       margin-bottom: 50px; }
     .services .container .flex-cont {
@@ -705,12 +711,16 @@ footer {
 
   .team {
     padding: 42px 0 79px; }
+    .team .container h3 {
+      font-size: 40px; }
     .team .container p {
       margin-bottom: 50px; }
 
   .clients {
     padding: 37px 0 48px; }
-    .clients .container p {
+    .clients h3 {
+      font-size: 40px; }
+    .clients p {
       margin-bottom: 50px; } }
 @media only screen and (max-width: 999px) {
   .clients .container .owl-carousel .owl-block {
